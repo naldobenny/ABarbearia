@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Barbearia - Alura Produtos</title>
+  <link href="reset.css" rel="stylesheet">
+  <link href="style-principal.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="caixa">
+      <h1><img src="logo.png"></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+   <form>
+     <label for="NomeSobrenome">Nome e sobrenome.</label>
+     <input class=".input-padrao" type="text" id="NomeSobrenome">
+
+     <label for="email">E-mail</label>
+     <input class=".input-padrao"  type="text" id="email">
+
+     <label for="telefone">Telefone</label>
+     <input class=".input-padrao"  type="text" id="telefone">
+
+     <label for="mensagem"></label>
+     <textarea class=".input-padrao" cols="10" rows="10" id="mensagem"></textarea>
+
+     <div>
+     <p>Como prefere o nosso contato?</p>
+
+     <label for="radio-email">Email</label>
+     <input type="radio" name="contato" value="email" id="radio-email">
+
+<label for="radio-telefone">Telefone</label>
+<input type="radio"name="contato" value="telefone" id="radio-telefone">
+
+     <label for="radio-whatsapp">WhatsApp</label>
+     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+     </div>
+
+    <label><input type="checkbox">Gostaria de receber nossas ofertas por e-mail?</label>
+     <input type="submit" value="Enviar o formulário">
+
+   </form>
+  </main>
+
+<footer>
+<img src="logo-branco.png">
+  <p class="copyright">&#169; Copyright Barbearia Carlinhos Cortes - 2023</p>
+</footer>
+</body>
+
+</html>
